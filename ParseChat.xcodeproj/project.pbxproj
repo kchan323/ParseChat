@@ -18,6 +18,7 @@
 		F9EA3ABF22D659B500C8C884 /* ParseChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EA3ABE22D659B500C8C884 /* ParseChatUITests.m */; };
 		F9EA3ACF22D65BFB00C8C884 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EA3ACE22D65BFB00C8C884 /* LoginViewController.m */; };
 		F9EA3AD222D6623B00C8C884 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EA3AD122D6623B00C8C884 /* ChatViewController.m */; };
+		F9EA3AD822D6683F00C8C884 /* ChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EA3AD722D6683F00C8C884 /* ChatCell.m */; };
 		FE9A4E7F5B33DE973453C6A4 /* Pods_ParseChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD8BC244C848A75542F1286 /* Pods_ParseChatUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,8 @@
 		F9EA3ACE22D65BFB00C8C884 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		F9EA3AD022D6623B00C8C884 /* ChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
 		F9EA3AD122D6623B00C8C884 /* ChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		F9EA3AD622D6683F00C8C884 /* ChatCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatCell.h; sourceTree = "<group>"; };
+		F9EA3AD722D6683F00C8C884 /* ChatCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +147,7 @@
 		F9EA3A9922D659B400C8C884 /* ParseChat */ = {
 			isa = PBXGroup;
 			children = (
+				F9EA3AD522D6681B00C8C884 /* Views */,
 				F9EA3ACC22D65BED00C8C884 /* ViewControllers */,
 				F9EA3A9A22D659B400C8C884 /* AppDelegate.h */,
 				F9EA3A9B22D659B400C8C884 /* AppDelegate.m */,
@@ -183,6 +187,15 @@
 				F9EA3AD122D6623B00C8C884 /* ChatViewController.m */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F9EA3AD522D6681B00C8C884 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F9EA3AD622D6683F00C8C884 /* ChatCell.h */,
+				F9EA3AD722D6683F00C8C884 /* ChatCell.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -408,6 +421,7 @@
 				F9EA3AAA22D659B500C8C884 /* main.m in Sources */,
 				F9EA3A9C22D659B400C8C884 /* AppDelegate.m in Sources */,
 				F9EA3AD222D6623B00C8C884 /* ChatViewController.m in Sources */,
+				F9EA3AD822D6683F00C8C884 /* ChatCell.m in Sources */,
 				F9EA3ACF22D65BFB00C8C884 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
